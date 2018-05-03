@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<tab id="josephson" sortOrder="999" translate="label">
+			<label>Josephson Modules Configuration</label>
+		</tab>
+		<section id="api" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+			<label>API</label>
+			<tab>josephson</tab>
+			<resource>Josephson_SwatchImporter::config_josephson_swatchimporter</resource>
+			<group id="swatchimporter" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+				<label>API Credentials (for Swatch Importer)</label>
+				<field id="consumer_key" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+					<label>OAuth Consumer Key</label>
+					<comment/>
+				</field>
+				<field id="consumer_secret" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="12" translate="label" type="text">
+					<label>OAuth Consumer Secret</label>
+					<comment/>
+				</field>
+				<field id="token" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="14" translate="label" type="text">
+					<label>OAuth Token</label>
+					<comment/>
+				</field>
+				<field id="token_secret" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="16" translate="label" type="text">
+					<label>OAuth Token Secret</label>
+					<comment/>
+				</field>
+				<field id="base_uri" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="18" translate="label" type="text">
+					<label>Base URI of API</label>
+					<comment/>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>

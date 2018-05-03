@@ -1,0 +1,25 @@
+{
+    "name": "josephson/module-swatchimporter",
+    "description": "Import swatch options",
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "josephson.eduardo@gmail.com",
+            "name": "Jeeduardo"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "josephson/module-swatchrestapi": "~1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Josephson\\SwatchImporter\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
