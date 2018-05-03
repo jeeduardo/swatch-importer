@@ -12,7 +12,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "josephson/module-swatchrestapi": "~1.0.*"
+        "josephson/module-swatchrestapi": "1.0.1"
     },
     "autoload": {
         "psr-4": {
